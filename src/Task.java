@@ -23,9 +23,6 @@ public class Task {
         return arr;
     }
 
-    /**
-     * return true if generation is possible, else false
-     */
     private static boolean checkInput(final int size) {
         final int MAX_BOUND = Integer.MAX_VALUE - 1;
         final int MIN_BOUND = 0;
